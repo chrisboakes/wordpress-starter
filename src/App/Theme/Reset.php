@@ -28,7 +28,6 @@ class Reset
         $this->removeAction('wp_head', 'rsd_link');
         $this->removeAction('wp_head', 'wlwmanifest_link');
         $this->removeAction('wp_head', 'wp_generator');
-        $this->removeAction('welcome_panel', 'wp_welcome_panel');
 
         //Remove excerpt auto <p> tags
         $this->removeFilter('the_excerpt', 'wpautop');
